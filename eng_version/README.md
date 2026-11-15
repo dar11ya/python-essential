@@ -12,7 +12,7 @@ data structures, modules, working with files and code style conventions.
 |:------:|-------|-------|
 | ✅ | Introduction to OOP: classes, instances, `__init__`, `self`, methods, class attributes, `@classmethod`, `@staticmethod` + homework (`Order`, `Book`, `BankAccount`) | [`01_classes_and_objects.py`](01_classes_and_objects.py) |
 | ✅ | Inheritance: parent and child classes, `super()`, method overriding, multiple inheritance + homework (`Employee`/`Manager`, `Shape`, `Vehicle`) | [`02_inheritance/`](02_inheritance) |
-| ⬜ | Encapsulation: restricting access to attributes and methods | |
+| ✅ | Encapsulation: restricting access to attributes and methods | |
 | ⬜ | Polymorphism and interfaces | |
 | ⬜ | Abstraction | |
 | ⬜ | Recursion | |

@@ -12,8 +12,8 @@ data structures, modules, working with files and code style conventions.
 |:------:|-------|-------|
 | ✅ | Introduction to OOP: classes, instances, `__init__`, `self`, methods, class attributes, `@classmethod`, `@staticmethod` + homework (`Order`, `Book`, `BankAccount`) | [`01_classes_and_objects.py`](01_classes_and_objects.py) |
 | ✅ | Inheritance: parent and child classes, `super()`, method overriding, multiple inheritance + homework (`Employee`/`Manager`, `Shape`, `Vehicle`) | [`02_inheritance/`](02_inheritance) |
-| ✅ | Encapsulation: restricting access to attributes and methods | |
-| ⬜ | Polymorphism and interfaces | |
+| ✅ | Encapsulation: public, protected and private attributes and methods, name mangling + homework (`BankAccount`, `Student`, `Product`, `Vehicle`) | [`03_encapsulation/`](03_encapsulation) |
+| ✅ | Polymorphism: method overriding, polymorphic functions, magic methods (`__add__`, `__str__`) + homework (`Animal`, `Transport`, `Rectangle`/`Circle`, `Vector2D`/`Vector3D`) | [`04_polymorphism/`](04_polymorphism) |
 | ⬜ | Abstraction | |
 | ⬜ | Recursion | |
 | ⬜ | Data structures | |
@@ -31,11 +31,11 @@ Run any file with Python 3:
 python 01_classes_and_objects.py
 ```
 
-The `02_inheritance` examples import each other, so run them from inside that folder:
+The examples inside the topic folders (`02_inheritance`, `03_encapsulation`, `04_polymorphism`) import each other, so run them from inside their folder:
 
 ```bash
-cd 02_inheritance
-python clownfish.py
+cd 04_polymorphism
+python magic_dog.py
 ```
 
 Most examples are commented out because I ran them one at a time while studying.

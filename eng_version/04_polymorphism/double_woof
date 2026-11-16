@@ -1,0 +1,19 @@
+"""Method overriding allows a subclass to provide a specific implementation of a method that is already defined in the base class.
+This allows different classes to have different implementations of the same method"""
+
+from animals import Dog, Cat
+
+
+class DoubleWoofDog(Dog):
+    @staticmethod
+    def speak():
+        return "Woof Woof"
+
+if __name__ == '__main__':
+    cat = Cat("Garfield")
+    dog_one = Dog('Peter')
+    dog_two = DoubleWoofDog('Arnold')
+
+    my_animals = [cat, dog_one, dog_two]
+    for animal in my_animals:
+        print(animal.speak())
